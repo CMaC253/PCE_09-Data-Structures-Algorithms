@@ -1,0 +1,31 @@
+
+table.Results_Table {
+	border-width: 2px;
+	border-spacing: 0px;
+	border-style: solid;
+	border-color: black;
+	border-collapse: collapse;
+	background-color: white;
+}
+
+table.Results_Table td{
+	border-width: thin;
+	padding: 1px;
+	border-style: inset;
+	border-color: red;
+}
+.Header_Row {
+	background-color: #83C054;
+}
+
+.Even_Row {
+	background-color: #9BBDCE;
+}
+
+.Odd_Row {
+	background-color: #ffffff;
+}
+
+.Grades_Col {
+	width:100px
+}

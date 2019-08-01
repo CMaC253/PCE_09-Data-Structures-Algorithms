@@ -1,0 +1,413 @@
+﻿<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css">
+body
+{
+}
+div.PageTitle
+{
+    color:Blue;
+    font-size:x-large;
+}
+div.TimeStamp
+{
+    color:Gray;
+    padding-bottom:20px;
+}
+div.OverallGrade
+{
+    padding-top:20px;
+    font-size:x-large;
+    color:Navy;
+    text-align:right;
+}
+div.MaxGrade
+{
+    font-size:larger;
+    text-align:right;
+}
+/* No special formatting, for now
+div.Overall_Feedback
+{
+	
+}
+*/
+table.ST_Table
+{
+    border-collapse:collapse;
+    border: thin solid black;
+    border: solid 2px Black;
+}
+div.ExerciseTitle
+{
+    color:Blue;
+    font-size:x-large;
+    font-weight:bold;
+    border-top: solid 2px Black;
+}
+div.FailedTests
+{
+    text-align:left;
+    color:Red;
+    font-size:large;
+    font-weight:bold;
+}
+div.PassedTests
+{
+    text-align:left;
+    color:Green;
+    font-size:large;
+    font-weight:bold;
+}
+td.FT_GradingCategory
+{
+    color:Black;
+    font-weight:bold;
+    border-bottom-width:0px;
+    border-right-width:0px;
+}
+td.FT_PointPenalty
+{
+    border-bottom-width:0px;
+    border-left-width:0px;
+    text-align:center;
+/*    width:30px; */
+    color:Red;
+    background-color:#EEEEEE;
+}
+td.FT_Explanation
+{
+    border-top-width:0px;
+    font-weight:bold;
+    padding-bottom:5px;
+    border-bottom-width:0px;
+    background-color:#FFFFF2;
+}
+table.FT_ListOfTests
+{
+    margin: 20px;
+    border-collapse:collapse;
+    border: thin solid black;
+    border: solid 2px Black;
+    background-color:#EEEEEE;
+}
+td.FT_TestName
+{
+    border-bottom-width:0px;
+    border-right-width:0px;
+    padding-top:5px;
+    background-color:#FFFFF2;
+}
+td.FT_TestExplanation
+{
+    border-bottom:dotted 2px #676767;
+}
+tr.UnassignedCategory
+{
+    background-color:Yellow;
+}
+tr.MissingCategory
+{
+    background-color:Red;
+}
+div.Disclaimer
+{
+	padding-top:10px;
+	padding-left:10%;
+	padding-right:10%;
+	color:Gray;
+}
+</style>
+  </head>
+  <body>
+    <div class="PageTitle">					Grade Results for 
+					PCE 09</div>
+    <div class="TimeStamp">					(This test was run at 
+					2016/03/16 @ 08:43:07</div>
+    <div class="Overall_Feedback"><OverallFeedback>
+    <p>Thank you for handing in these PCEs!</p>
+  </OverallFeedback></div>
+    <table class="ST_Table" width="100%" border="1">
+      <tr>
+        <td colspan="2">
+          <div class="ExerciseTitle">BST_FindAndRemoveNextSmaller</div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="FailedTests">Failed Tests</div>
+        </td>
+        <td class="FT_PointPenalty">Point Penalty</td>
+      </tr>
+      <tr>
+        <td colspan="2"> There are no failed tests</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <div class="PassedTests">Passed Tests</div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.BST_FindAndRemoveNextSmaller.FARNS_Normal</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.BST_FindAndRemoveNextSmaller.FARNS_OneStepToTheLeft</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.BST_FindAndRemoveNextSmaller.FARNS_OneStepToTheLeftOneStepRight</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.BST_FindAndRemoveNextSmaller.FARNS_OneStepToTheLeftOneStepRightLeftSubtree</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.BST_FindAndRemoveNextSmaller.FARNS_OneStepToTheLeftWithLeftSubtree</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <div class="ExerciseTitle">BST_Remove</div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="FailedTests">Failed Tests</div>
+        </td>
+        <td class="FT_PointPenalty">Point Penalty</td>
+      </tr>
+      <tr>
+        <td class="FT_GradingCategory">                        Grading Category: 
+						<i>BST.Remove (general)</i></td>
+        <td class="FT_PointPenalty">-2</td>
+      </tr>
+      <tr>
+        <td class="FT_Explanation" colspan="2">Failed to properly partition one (or more) arrays</td>
+      </tr>
+      <tr>
+        <td colspan="2" style="border-top-width:0px">                    This penalty was triggered by the failure of the following tests:
+					<table class="FT_ListOfTests">
+            <tr>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="FT_TestName">PCE_StarterProject.BST_Remove.RemoveFromTree100_10_20</td>
+            </tr>
+            <tr>
+              <td class="FT_TestExplanation"><br><b>Error Message From The Test Itself:</b><br><pre>  TEST FAILED: Found 10 in the tree, despite removing it
+  Expected: True
+  But was:  False
+</pre><br><b>Stack Trace From The Test Itself:</b><br><pre>at PCE_StarterProject.BST_Remove.RemoveFromTree100_10_20() in C:\Users\Colin\OneDrive\School\Winter 16\BIT 143\Lesson_09\PCE_09_VS_2013_NUnit_2_5_BST-Remove_QuickSort\02_PCE_ForTests\PCE_Tests_To_Run.cs:line 229
+</pre>
+              </td>
+            </tr>
+            <tr>
+              <td class="FT_TestName">PCE_StarterProject.BST_Remove.RemoveFromTree100_10_20_5</td>
+            </tr>
+            <tr>
+              <td class="FT_TestExplanation"><br><b>Error Message From The Test Itself:</b><br><pre>  TEST FAILED: Found 10 in the tree, despite removing it
+  Expected: True
+  But was:  False
+</pre><br><b>Stack Trace From The Test Itself:</b><br><pre>at PCE_StarterProject.BST_Remove.RemoveFromTree100_10_20_5() in C:\Users\Colin\OneDrive\School\Winter 16\BIT 143\Lesson_09\PCE_09_VS_2013_NUnit_2_5_BST-Remove_QuickSort\02_PCE_ForTests\PCE_Tests_To_Run.cs:line 263
+</pre>
+              </td>
+            </tr>
+            <tr>
+              <td class="FT_TestName">PCE_StarterProject.BST_Remove.RemoveFromTree100_10_20_5_6</td>
+            </tr>
+            <tr>
+              <td class="FT_TestExplanation"><br><b>Error Message From The Test Itself:</b><br><pre>  TEST FAILED: Found 10 in the tree, despite removing it
+  Expected: True
+  But was:  False
+</pre><br><b>Stack Trace From The Test Itself:</b><br><pre>at PCE_StarterProject.BST_Remove.RemoveFromTree100_10_20_5_6() in C:\Users\Colin\OneDrive\School\Winter 16\BIT 143\Lesson_09\PCE_09_VS_2013_NUnit_2_5_BST-Remove_QuickSort\02_PCE_ForTests\PCE_Tests_To_Run.cs:line 284
+</pre>
+              </td>
+            </tr>
+            <tr>
+              <td class="FT_TestName">PCE_StarterProject.BST_Remove.RemoveFromTree100_10_20_5_6_7_8</td>
+            </tr>
+            <tr>
+              <td class="FT_TestExplanation"><br><b>Error Message From The Test Itself:</b><br><pre>  TEST FAILED: Found 10 in the tree, despite removing it
+  Expected: True
+  But was:  False
+</pre><br><b>Stack Trace From The Test Itself:</b><br><pre>at PCE_StarterProject.BST_Remove.RemoveFromTree100_10_20_5_6_7_8() in C:\Users\Colin\OneDrive\School\Winter 16\BIT 143\Lesson_09\PCE_09_VS_2013_NUnit_2_5_BST-Remove_QuickSort\02_PCE_ForTests\PCE_Tests_To_Run.cs:line 306
+</pre>
+              </td>
+            </tr>
+            <tr>
+              <td class="FT_TestName">PCE_StarterProject.BST_Remove.RemoveFromTree100_10_5</td>
+            </tr>
+            <tr>
+              <td class="FT_TestExplanation"><br><b>Error Message From The Test Itself:</b><br><pre>  TEST FAILED: Found 10 in the tree, despite removing it
+  Expected: True
+  But was:  False
+</pre><br><b>Stack Trace From The Test Itself:</b><br><pre>at PCE_StarterProject.BST_Remove.RemoveFromTree100_10_5() in C:\Users\Colin\OneDrive\School\Winter 16\BIT 143\Lesson_09\PCE_09_VS_2013_NUnit_2_5_BST-Remove_QuickSort\02_PCE_ForTests\PCE_Tests_To_Run.cs:line 246
+</pre>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <div class="PassedTests">Passed Tests</div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.BST_Remove.RemoveFromEmptyTree</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.BST_Remove.RemoveFromSingleEltTree</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.BST_Remove.RemoveFromTree10_20</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.BST_Remove.RemoveFromTree10_5</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.BST_Remove.RemoveFromTree10_20_5</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.BST_Remove.RemoveFromTree10_20_5_6</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.BST_Remove.RemoveFromTree10_20_5_6_7_8</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <div class="ExerciseTitle">Test_Partition</div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="FailedTests">Failed Tests</div>
+        </td>
+        <td class="FT_PointPenalty">Point Penalty</td>
+      </tr>
+      <tr>
+        <td colspan="2"> There are no failed tests</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <div class="PassedTests">Passed Tests</div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.Test_Partition.PartitionFiveElt</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.Test_Partition.PartitionFiveEltAgain</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.Test_Partition.PartitionFiveEltLopsided</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.Test_Partition.PartitionThreeElt</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.Test_Partition.PartitionThreeEltNoSwap</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.Test_Partition.PartitionThreeEltSwap</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.Test_Partition.PartitionTwoEltNoSwap</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.Test_Partition.PartitionTwoEltSwap</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <div class="ExerciseTitle">Test_QuickSort</div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="FailedTests">Failed Tests</div>
+        </td>
+        <td class="FT_PointPenalty">Point Penalty</td>
+      </tr>
+      <tr>
+        <td colspan="2"> There are no failed tests</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <div class="PassedTests">Passed Tests</div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.Test_QuickSort.Sort_1_Elt_Array</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.Test_QuickSort.Sort_2_Elt_Array_Sorted</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.Test_QuickSort.Sort_2_Elt_Array_Unsorted</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.Test_QuickSort.Sort_4_Elt_Array_Sorted</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.Test_QuickSort.Sort_4_Elt_Array_Unsorted</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.Test_QuickSort.SortEmptyArray</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.Test_QuickSort.Test_Sorting(20)</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.Test_QuickSort.Test_Sorting(10)</i></td>
+      </tr>
+      <tr>
+        <td colspan="2">				Name Of Passed Test: 
+				<i>PCE_StarterProject.Test_QuickSort.Test_Sorting(7)</i></td>
+      </tr>
+    </table>
+    <p>
+      <font size="+2"><b>			  Raw Grade:
+							8</b></font>
+    </p>
+    <font size="+2">+2 bonus (if you get 6 points or higher)</font>
+    <div class="OverallGrade">                    Overall Grade:
+					10</div>
+    <div class="MaxGrade">                    (Possible grades range from 
+					010</div>
+    <div class="Disclaimer"><b><u>Note:</u></b>
+		  The instructor reserves the right to go through your
+		  program and verify the correctness of any of your work.
+		  This includes (but is not limited to) both checking for 
+		  attempts to 'crack the tests', as well as re-examining
+		  code from failed tests.  
+		  Therefore, the grade you see listed here may (or may not)
+		  be your final grade, after you hand it in.
+	  </div>
+  </body>
+</html>

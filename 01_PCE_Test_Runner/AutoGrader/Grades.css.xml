@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<all>
+body
+{
+}
+div.PageTitle
+{
+    color:Blue;
+    font-size:x-large;
+}
+div.TimeStamp
+{
+    color:Gray;
+    padding-bottom:20px;
+}
+div.OverallGrade
+{
+    padding-top:20px;
+    font-size:x-large;
+    color:Navy;
+    text-align:right;
+}
+div.MaxGrade
+{
+    font-size:larger;
+    text-align:right;
+}
+/* No special formatting, for now
+div.Overall_Feedback
+{
+	
+}
+*/
+table.ST_Table
+{
+    border-collapse:collapse;
+    border: thin solid black;
+    border: solid 2px Black;
+}
+div.ExerciseTitle
+{
+    color:Blue;
+    font-size:x-large;
+    font-weight:bold;
+    border-top: solid 2px Black;
+}
+div.FailedTests
+{
+    text-align:left;
+    color:Red;
+    font-size:large;
+    font-weight:bold;
+}
+div.PassedTests
+{
+    text-align:left;
+    color:Green;
+    font-size:large;
+    font-weight:bold;
+}
+td.FT_GradingCategory
+{
+    color:Black;
+    font-weight:bold;
+    border-bottom-width:0px;
+    border-right-width:0px;
+}
+td.FT_PointPenalty
+{
+    border-bottom-width:0px;
+    border-left-width:0px;
+    text-align:center;
+/*    width:30px; */
+    color:Red;
+    background-color:#EEEEEE;
+}
+td.FT_Explanation
+{
+    border-top-width:0px;
+    font-weight:bold;
+    padding-bottom:5px;
+    border-bottom-width:0px;
+    background-color:#FFFFF2;
+}
+table.FT_ListOfTests
+{
+    margin: 20px;
+    border-collapse:collapse;
+    border: thin solid black;
+    border: solid 2px Black;
+    background-color:#EEEEEE;
+}
+td.FT_TestName
+{
+    border-bottom-width:0px;
+    border-right-width:0px;
+    padding-top:5px;
+    background-color:#FFFFF2;
+}
+td.FT_TestExplanation
+{
+    border-bottom:dotted 2px #676767;
+}
+tr.UnassignedCategory
+{
+    background-color:Yellow;
+}
+tr.MissingCategory
+{
+    background-color:Red;
+}
+div.Disclaimer
+{
+	padding-top:10px;
+	padding-left:10%;
+	padding-right:10%;
+	color:Gray;
+}
+</all>
